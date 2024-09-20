@@ -1,131 +1,28 @@
 # Awesome-Multi-View-Graph-Clustering
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) ![GitHub stars](https://img.shields.io/github/stars/Xunlian-Wu/Awesome-Multi-View-Graph-Clustering?color=yellow&label=Stars) ![GitHub forks](https://img.shields.io/github/forks/Xunlian-Wu/Awesome-Multi-View-Graph-Clustering?color=blue&label=Forks) 
 
-Welcome to the **Awesome Community Detection** repository! This is a curated collection of resources, papers, and methods related to **Community Detection** in complex networks. Community detection, also known as graph clustering, is a crucial task in network science that aims to uncover modular structures in graphs representing real-world systems, such as social networks, biological networks, and communication networks.
+Welcome to the **Awesome Multi-View Graph Clustering** repository! This is a curated collection of resources, papers, and methodologies dedicated to **Multi-View Graph Clustering** in complex networks. Multi-view graph clustering, an advanced form of graph clustering, leverages multiple perspectives or views of data to reveal hidden structures and communities within networks. This repository aims to be a comprehensive guide for researchers and practitioners exploring this fascinating area, covering a wide range of topics from foundational theories to state-of-the-art techniques.
 
-This repository serves as a central hub for resources discussed in our weekly research group meetings and is continuously updated with new methods and papers in the field of community detection.
+Multi-view graph clustering is pivotal for understanding complex systems where entities interact in multiple contexts, such as:
+
+- **Social Networks**: Analyzing diverse interactions like friendships, professional connections, and shared interests to better understand community structures.
+- **Biological Networks**: Integrating various biological interactions, such as gene regulation, protein-protein interactions, and metabolic pathways, to uncover functional modules.
+- **Communication Networks**: Studying different types of communications, such as email exchanges and social media interactions, to detect underlying group dynamics.
+
+Whether you are a researcher looking to delve into the nuances of multi-view graph clustering, a practitioner seeking to apply these techniques to real-world problems, or a student eager to learn about this cutting-edge field, this repository is your go-to resource for everything multi-view graph clustering!
 
 ---
 
-## 📚 **Contents**
+📚 **Contents**
 
 - [Papers](#papers)  
-  - [Surveys](#surveys)  
-  - [Deep Learning-based Methods](#deep-learning-based-methods)  
-    - [Reconstructive Deep Graph Clustering](#reconstructive-deep-graph-clustering)  
-    - [Adversarial Deep Graph Clustering](#adversarial-deep-graph-clustering)  
-    - [Contrastive Deep Graph Clustering](#contrastive-deep-graph-clustering)  
-  - [Spectral Methods](#spectral-methods)  
-  - [Label Propagation](#label-propagation)  
-  - [Modularity Optimization](#modularity-optimization)  
-  - [Stochastic Block Models](#stochastic-block-models)  
-  - [Nonnegative Matrix Factorization](#nonnegative-matrix-factorization)  
-  - [Other Methods](#other-methods)  
-  - [Community Detection with Unknown Cluster Number](#community-detection-with-unknown-cluster-number)  
-  - [Overlapping Community Detection](#overlapping-community-detection)  
-  - [Temporal Community Detection](#temporal-community-detection)  
-  - [Attribute-Missing Community Detection](#attribute-missing-community-detection)  
-  - [Multi-layer Community Detection](#multi-layer-community-detection)
-  - [Multi-view Graph Clustering](#multi-view-graph-clustering)  
-- [Weekly Paper Presentations](#weekly-paper-presentations)
+- [Datasets](#datasets)  
 - [Useful Libraries](#useful-libraries)
 - [References](#references)
 
 ---
 
 ## <a name="papers"></a> 📑 Papers
-
-### Surveys
-
-| Year | Title                                                        |   CA   |     Institution      | **Venue** |                            Paper                             | Code |
-| :--: | :----------------------------------------------------------- | :----: | :------------------: | :-------: | :----------------------------------------------------------: | :--: |
-| 2022 | **A Comprehensive Survey on Community Detection with Deep Learning** | Jia Wu | Macquarie University |  *TNNLS*  | [Link](https://arxiv.org/pdf/2105.12584.pdf?ref=https://githubhelp.com) |  --  |
-
-### Deep Learning-based Methods
-
-#### Reconstructive Deep Graph Clustering
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-#### Adversarial Deep Graph Clustering
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-#### Contrastive Deep Graph Clustering
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-### Spectral Methods
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-### Label Propagation
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-### Modularity Optimization
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-### Stochastic Block Models
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-### **Nonnegative** Matrix Factorization
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-### Other Methods
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-### Community Detection with Unknown Cluster Number
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-### Overlapping Community Detection
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-### Temporal Community Detection
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-### Attribute-Missing Community Detection
-
-| Year | Title       |  CA  | Institution |  **Venue**   |   Paper   |   Code    |
-| :--: | :---------- | :--: | :---------: | :----------: | :-------: | :-------: |
-| 2021 | Paper Title |      | University  | Journal Name | [Link](#) | [Link](#) |
-
-### Multi-layer Community Detection
-
-| Year | Title                                               |    CA     |                       Institution                        | **Venue** |                  Paper                   |                             Code                             |
-| :--: | :-------------------------------------------------- | :-------: | :------------------------------------------------------: | :-------: | :--------------------------------------: | :----------------------------------------------------------: |
-| 2022 | **Multilayer graph contrastive clustering network** | Zhao Kang | University of Electronic Science and Technology of China |   *IS*    | [Link](https://arxiv.org/pdf/2112.14021) | [Link](https://github.com/Lliang97/Multilayer-Clutering-Network) |
 
 ### Multi-view graph clustering
 
@@ -149,12 +46,15 @@ This repository serves as a central hub for resources discussed in our weekly re
 
 ---
 
-## <a name="weekly-paper-presentations"></a> 📆 Weekly Paper Presentations
+## <a name="datasets"></a> :label: Datasets
 
-Each week, we present a paper related to community detection in our research group. This section includes summaries and key takeaways from the weekly papers discussed in our meetings. Click on the links below to access each presentation.
+Links to publicly available multi-view graph datasets, including descriptions and recommended use cases.
 
-- **[Week 1 - Paper Title](#)**
-- **[Week 2 - Paper Title](#)**
+| Datasets | Nodes | Edges | Features | Link |
+| :------: | :---- | :---: | :------: | :--: |
+|          |       |       |          |      |
+|          |       |       |          |      |
+|          |       |       |          |      |
 
 ---
 
