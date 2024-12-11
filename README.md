@@ -53,11 +53,11 @@ Links to publicly available multi-view graph datasets, including descriptions an
 
 | Datasets  | Views | Nodes |                            Edges                             |                     Attribute content                     | Features dimensions | Clusters |                             Link                             |
 | :-------: | :---: | :---: | :----------------------------------------------------------: | :-------------------------------------------------------: | :-----------------: | :------: | :----------------------------------------------------------: |
-|    ACM    |   2   | 3025  |          Co-Subject (29,281)｜Co-Author (2,210,761)          |                   Keywords of the paper                   |        1830         |    3     |                 [Link](https://dl.acm.org/)                  |
-|   DBLP    |   3   | 4057  | Co-Author (11,113)｜Co-Conference (5,000,495)｜Co-Term (6,776,335) |                  Keywords of the author                   |         334         |    4     |              [Link](https://dblp.uni-trier.de/)              |
-|   IMDB    |   2   | 4780  |           Co-Actor (98,010)｜Co-Director (21,018)            |                Keywords of the movie plot                 |        1232         |    3     |                [Link](https://www.imdb.com/)                 |
-|  Cornell  |   2   |  183  |                             295                              | The bag-of-words representation of the corresponding page |        1703         |    5     | [Link](http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-11/www/wwkb/) |
-| Wisconsin |   2   |  251  |                             499                              | The bag-of-words representation of the corresponding page |        1703         |    5     | [Link](http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-11/www/wwkb/) |
+|    ACM    |   2   | 3025  |          Co-Subject (29,281)｜Co-Author (2,210,761)          |                   Keywords of the paper                   |        1830         |    3     | [Link](https://pan.baidu.com/s/1LJIz4XJyFDc51oqEpwBAWQ?pwd=p8js) |
+|   DBLP    |   3   | 4057  | Co-Author (11,113)｜Co-Conference (5,000,495)｜Co-Term (6,776,335) |                  Keywords of the author                   |         334         |    4     | [Link](https://pan.baidu.com/s/1LJIz4XJyFDc51oqEpwBAWQ?pwd=p8js) |
+|   IMDB    |   2   | 4780  |           Co-Actor (98,010)｜Co-Director (21,018)            |                Keywords of the movie plot                 |        1232         |    3     | [Link](https://pan.baidu.com/s/1LJIz4XJyFDc51oqEpwBAWQ?pwd=p8js) |
+|  Cornell  |   2   |  183  |                             295                              | The bag-of-words representation of the corresponding page |        1703         |    5     | [Link](http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-11/www/wwkb/)  [Link](https://github.com/SZU-AdvTech-2023/221-Simple-and-Deep-Graph-Convolutional-Networks/tree/1319d5f21830099342728a66a1d8e913afb41a31/GCNII-master/new_data) |
+| Wisconsin |   2   |  251  |                             499                              | The bag-of-words representation of the corresponding page |        1703         |    5     | [Link](http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-11/www/wwkb/)  [Link](https://github.com/SZU-AdvTech-2023/221-Simple-and-Deep-Graph-Convolutional-Networks/tree/1319d5f21830099342728a66a1d8e913afb41a31/GCNII-master/new_data) |
 
 ## "useful-libraries"></a> 📖 Useful Libraries
 
@@ -66,4 +66,3 @@ Links to publicly available multi-view graph datasets, including descriptions an
 ---
 
 Happy researching! If you find this repository useful, feel free to star ⭐ it and contribute.
-
